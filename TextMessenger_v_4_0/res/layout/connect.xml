@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+		<TextView 	android:text="Display Name"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+					
+		<EditText	android:id="@+id/displayName" 
+					android:layout_centerHorizontal="true"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" android:maxLines="1" android:maxLength="20" android:typeface="normal"/>	
+		
+		<Button 	android:layout_width="150dp"
+					android:layout_height="100dp"
+					android:id="@+id/connectButton"
+					android:layout_below="@id/displayName"
+					android:layout_centerHorizontal="true"
+					android:text="Connect"/>
+					
+		<RadioGroup	android:id="@+id/signalRdbGrp"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:layout_alignParentBottom="true" >
+					<RadioButton	android:id="@+id/smallAreaRdb"
+									android:layout_width="fill_parent"
+									android:layout_height="wrap_content"
+									android:text="1mW" />
+					<RadioButton	android:id="@+id/largeAreaRdb"
+									android:layout_width="fill_parent"
+									android:layout_height="wrap_content"
+									android:text="100mW" />
+		</RadioGroup>
+
+</RelativeLayout>

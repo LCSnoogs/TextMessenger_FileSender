@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+        
+    <EditText
+        android:id="@+id/messageHistory"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="false"	
+        android:layout_weight="1"
+        android:editable="false"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:scrollbarSize="10px"
+        android:transcriptMode="alwaysScroll"
+    /> 
+        
+    <LinearLayout 
+        android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	>
+		<EditText 	android:id="@+id/message"
+		 			android:layout_width="wrap_content"
+	        		android:layout_height="wrap_content"
+	      			android:layout_weight="1"
+	    /> 
+	    <Button android:id="@+id/sendMessageButton"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:gravity="center"
+	        	android:text="Send"
+	    />
+	    <Button android:id="@+id/quitChatButton"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:gravity="center"
+	        	android:text="Quit"
+	    />	    
+	</LinearLayout>    
+
+</LinearLayout>
+
+

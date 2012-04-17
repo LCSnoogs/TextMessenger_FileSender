@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TextMessenger!</string>
+    <string name="app_name">TextMessenger</string>
+    <string name="standart_display_name">Display Name</string>
+    
+    <string name="settings_label">Settings...</string>
+    <string name="settings_title">TextMessenger Settings</string>
+    <string name="simulate_title">Simulate</string>
+    <string name="simulate_summary">Do not receive wireless signal from a specific peer.</string>
+    
+    <string name="start_label1">Startstopadhoc Start (192.168.2.1)</string>
+    <string name="start_label2">Startstopadhoc Start (192.168.2.2)</string>
+    <string name="start_label3">Startstopadhoc Start (192.168.2.3)</string>
+    <string name="stop_label">Startstopadhoc Stop</string>
+    <string name="calculate_label">Txpower 100mW</string>
+    <string name="result_label">Result</string>
+    <string name="about_title">About on TxPower App</string>
+    <string name="about_button_label">About (Txpower 1mW)</string>
+    <string name="next_button_label">Next</string>
+    <string name="about_label">A Sample Android Application for TxPower and Ad-Hoc Control</string>
+    
+    <string name="send_file_label">Send File</string>
+    <string name="sending_picture_label">Sending Picture...</string>
+</resources>

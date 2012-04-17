@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <CheckBoxPreference
+        android:key="simulate"
+        android:title="@string/simulate_title"
+        android:summary="@string/simulate_summary"
+        android:defaultValue="true" />
+</PreferenceScreen>
